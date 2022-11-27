@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/apple/Desktop/Ashesi/2nd year/2nd sem/Intermediate computer programming/General code/IndividualProject_C++",
+      "program": "/Users/apple/Desktop/Ashesi/2nd year/2nd sem/Intermediate computer programming/General code/IndividualProject_C++/build/Debug/outDebug",
+      "MIMode": "gdb"
+    }
+  ]
+}
