@@ -15,7 +15,7 @@ The project makes use of the following data files airports.csv, airlines.csv and
 ## Usage
 To run this code, you may decide to use either one of the test files in the folder or you may create your own.
 
-To create your input file you put in the name of the city and country you are travelling from and that of where you are headed. The content of the file would look something like this.
+To create your input file you put in the name of the city and country you are travelling from and that of where you are headed. The content of the file would look something like this:
 
 ```txt
 SourceCity, SourceCountry
@@ -23,9 +23,9 @@ SourceCity, SourceCountry
 DestinationCity, DestinationCountry
 ```
 
-Be sure to place the empty space after the comma as seen above. The cities and countries should be written in title case.
+Be sure to place the empty space after the comma as seen above. The cities and countries should be written in title case. Save the file in the same file directory being used
 
-To find the path, pass in the name of the text file as a string with no spaces after and an output file will be generated if there is indeed a route.
+To find the path, pass in the name of your text file (or one of the tests text files) as a string with no spaces after and an output file will be generated if there is indeed a route.
 
 ```c++
 int main(){
