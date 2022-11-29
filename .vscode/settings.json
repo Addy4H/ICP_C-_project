@@ -37,6 +37,9 @@
     "ostream": "cpp",
     "unordered_map": "cpp",
     "iostream": "cpp",
-    "istream": "cpp"
-  }
+    "istream": "cpp",
+    "vector": "cpp",
+    "ios": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
 }

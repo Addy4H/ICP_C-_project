@@ -20,10 +20,7 @@ class FileReader{
     private:
         // files to be read
         string inputFile;
-        // string airportFile;
-        // string airlineFile;
-        // string routeFile;
-
+    
         //readfile
         void readRoutes();
         void readAirports();
@@ -39,7 +36,6 @@ class FileReader{
         unordered_map<string, string> airportsToCountries;
         unordered_map<string, Airport> iataToAirports;
 
-        
         string sourceInfo;
         string destinationInfo;
         FileReader();
@@ -171,7 +167,7 @@ void FileReader::readAirports(){
                 iataToAirports.insert(make_pair(acdKey,airport));
             }
 
-            //matching all routes to their source airport codes
+            //mapping all routes to their source airport codes
             if(airportMap.find(airportKey) == airportMap.end()){
                 vector<Airport> airports;
                 airports.push_back(airport);

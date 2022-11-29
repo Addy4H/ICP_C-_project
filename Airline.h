@@ -21,11 +21,8 @@ class Airline{
     public:
         Airline(string, string, string, string, string, string, string, string);
         string getAirlineId();
-        string getAlias();
         string getIataCode();
-        string getIcaoCode();
         string getCountry();
-        string getActive();
         string toString();
 };
 
@@ -47,29 +44,15 @@ string airlineICAO, string airlineCallsign, string airlineCountry, string status
 string Airline::getAirlineId(){return airlineId;}
 
 /**
- * This function returns the alias of the airline
-*/
-string Airline::getAlias(){return alias;}
-
-/**
  * This function returns the IATA code of the airline
 */
 string Airline::getIataCode(){return iataCode;}
-
-/**
- * Ths function returns the ICAO code of the ariline
-*/
-string Airline::getIcaoCode(){return icaoCode;}
 
 /**
  * This function returns the territory (country) of the airport
 */
 string Airline::getCountry(){return country;}
 
-/**
- * This function returns activity status of the airline
-*/
-string Airline::getActive(){return active;}
 
 /**
  * This function returns the string representation of an airline object
